@@ -1,0 +1,20 @@
+input[type="email"] {
+    width: 87%;
+    padding: 10px 0px 0px;
+    font-size: 16px;
+    color: white;
+    background: transparent; /* Không có nền */
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5); /* Chỉ có viền dưới */
+    outline: none;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 16px;
+}
+
+input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="email"]:focus {
+    border-bottom: 2px solid white; /* Khi focus, viền dưới đậm hơn */
+}
